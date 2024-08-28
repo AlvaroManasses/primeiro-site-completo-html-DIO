@@ -1,0 +1,133 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Fundo azul claro */
+    color: #333; /* Cor do texto */
+    display: flex;
+    text-align: justify;
+}
+
+/* Wrapper geral para centralizar o conteúdo */
+.wrapper {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}
+
+/* Menu de navegação */
+.menu {
+    background-color: #03a9f4; /* Azul claro para o fundo do menu */
+    width: 250px; /* Largura do menu lateral */
+    padding: 20px;
+    min-height: 100vh; /* O menu ocupará a altura total da tela */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Texto branco para os links */
+    font-weight: bold;
+    padding: 10px 0;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #0288d1; /* Azul mais escuro ao passar o mouse */
+    border-radius: 5px;
+}
+
+/* Estilo do Main Content */
+.main {
+    flex-grow: 1;
+    background-color: #ffffff; /* Fundo branco para o conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do Header */
+.header {
+    background-color: #b3e5fc; /* Azul muito claro para o header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo do conteúdo */
+.content {
+    padding: 20px;
+}
+
+.content h1 {
+    color: #0277bd; /* Azul médio para títulos */
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilo do rodapé */
+.footer {
+    background-color: #0288d1; /* Azul intermediário para o rodapé */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .menu {
+        width: 100%;
+        min-height: auto;
+    }
+}
+/* Estilo da tabela */
+
+.content table { 
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.content tr, td {
+    border: 0.5px solid black;
+    padding: 8px;
+}
+
+.content thead {
+    background-color: #000000;
+    color: #ffffff;
+    }
+.content tbody {
+        border: solid 0.5px black;
+}
+.content tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+/* Estilo dos inputs*/
+
+.input {
+    width: 500px;
+}

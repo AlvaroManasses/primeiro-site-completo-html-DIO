@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Médica</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Menu de navegação -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Imagem no Header -->
+                <img src="clinica-contato.PNG" alt="Nossos funcionários estarão felizes em lhe atender bem!">
+            </div>
+    
+            <div class="content">
+                <!-- Conteúdo específico da página -->
+                <article>
+                    <header>
+                        <h1>Entre em Contato Conosco</h1>
+                        <p>Estamos prontos para ajudar! Utilize as informações abaixo ou o formulário para entrar em contato com a nossa clínica.</p>
+                    </header>
+            
+                    <section>
+                        <h2>Informações de Contato</h2>
+                        <p><strong>Telefone:</strong> <a href="tel:+551112345678">(11) 1234-5678</a> (Celular e WhatsApp)</p>
+                        <p><strong>Endereço:</strong> Rua Exemplo, 123 - São Paulo, SP</p>
+            
+                        <h3>Localização no Mapa</h3>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.743827246134!2d-46.63974938438494!3d-23.555741867694987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c9384e4d09%3A0x6dfe4f629fb9c861!2sAv.%20Paulista%2C%20150%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-000!5e0!3m2!1spt-BR!2sbr!4v1605262403317!5m2!1spt-BR!2sbr" 
+                            width=100% 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            aria-label="Localização da clínica no Google Maps">
+                        </iframe>
+                    </section>
+            
+                    <section>
+                        <h2>Formulário de Contato</h2>
+                        <form action="#" method="post">
+                            <p>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required aria-required="true" size=80>
+                             </p>
+                             <p>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required aria-required="true"size=80>
+                            </p>
+                            <p>
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="assunto" required aria-required="true"size=78>
+                            </p>
+                            <p>
+                            <label for="mensagem">Mensagem:</label>
+                            </p>
+                            <p>
+                            <textarea id="mensagem" name="mensagem" rows="4" cols="85" aria-required="true"></textarea>
+                             </p>
+                            <div>
+                                <button type="submit">Enviar</button>
+                                <button type="reset">Limpar Formulário</button>
+                            </div>
+                        </form>
+                    </section>
+                </article>
+            </div>
+    
+            <div class="footer">
+                <!-- Informações de contato no rodapé -->
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
+                <p>Email: contato@clinicamedica.com.br</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
