@@ -36,14 +36,6 @@ O site está dividido em várias páginas, cada uma com uma função específica
 
 O projeto foi desenvolvido com foco em acessibilidade, garantindo que todas as páginas sigam boas práticas para serem acessíveis a usuários com deficiências. Elementos como rótulos (`label`), descrições (`aria-label`) e atributos `role` foram utilizados para tornar o conteúdo navegável por leitores de tela.
 
-## Como Contribuir
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch para sua feature (`git checkout -b feature/nova-feature`).
-3. Commit suas alterações (`git commit -m 'Adiciona nova feature'`).
-4. Faça um push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
-
 ## Licença
 
 Este projeto é destinado exclusivamente para fins de aprendizado e está disponível sob a licença [MIT](https://opensource.org/licenses/MIT).
